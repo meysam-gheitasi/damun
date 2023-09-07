@@ -2,9 +2,9 @@ import Layout from "../../components/Layout";
 
 export default function Home() {
   return (
-    <main>
+    <main className=" font-vazir">
       <Layout title="Home">
-        Main
+      صفحه ماین
       </Layout>
     </main>
   )

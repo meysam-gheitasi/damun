@@ -7,24 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: {
-        xs: "320px",
-        sm: "375px",
-        sml: "500px",
-        md: "667px",
-        mdl: "768px",
-        lg: "960px",
-        lgl: "1024px",
-        xl: "1280px",
-      },
       colors: {
-        amazon_blue: "#131921",
-        amazon_light: "#232F3E",
-        amazon_yellow: "#febd69",
-        lightText: "#ccc",
+        primary: "#00040f",
+        secondary: "#00f6ff",
+        dimWhite: "rgba(255, 255, 255, 0.7)",
+        dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        bodyFont: ["Poppins", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        vazir: ['Vazir', "sans-serif"]
+      },
+
+    },
+    screens: {
+      xs: "480px",
+      ss: "620px",
+      sm: "768px",
+      md: "1060px",
+      lg: "1200px",
+      xl: "1700px",
     },
   },
   plugins: [],

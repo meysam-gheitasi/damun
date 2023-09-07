@@ -1,5 +1,8 @@
 import Head from "next/head";
 
+//Logo Shopp
+import logo from "../assets/damun.jpeg"
+
 type LayoutProps = {
     title: string,
     children: any
